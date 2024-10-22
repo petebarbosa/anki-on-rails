@@ -28,4 +28,7 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  home:
+    hero_top: "A free anki tool for your improvement!"
+    hero_bottom: "Have fun with this easy to use flashcard tool."
+    description_part_one: ""
