@@ -1,6 +1,6 @@
-<%= render 'home/header' %>
+<%= render 'pages/header' %>
 
-<%= turbo_frame_tag @page do %>
+<%= turbo_frame_tag @pages_content do %>
   <hero class="flex flex-col place-items-center">
    <h1 class="font-bold text-3xl mt-20 mb-8">Anki on Rails</h1>
    <h2 class="font-semibold text-6xl text-center"><%= t("home.hero_top") %></h2>
@@ -9,3 +9,4 @@
   </hero>
 <% end %>
 <%= render 'shared/footer' %>
+
