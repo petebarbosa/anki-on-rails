@@ -5,18 +5,34 @@
     <h1 class="font-bold text-3xl mt-20 mb-8">Anki on Rails</h1>
     <h2 class="font-semibold text-6xl text-center"><%= t("home.hero_top") %></h2>
     <p class="text-2xl text-center text-gray-600 my-8"><%= t("home.hero_bottom") %></p>
-    <%= link_to 'Get Started', new_user_session_path, class: 'inline-flex items-center bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-150 ease-in-out px-6 py-3' %>
+    <%= link_to 'Get Started', new_user_session_path, class: 'inline-flex items-center bg-red-600 text-white font-semibold rounded-xl hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-150 ease-in-out px-6 py-3' %>
   </hero>
-  <community class="items-center">
+  <features>
     <hr class="border-gray-200 sm:mx-auto dark:border-gray-700 my-8 lg:my-10" />
-    <h1 class="font-bold text-3xl my-6"><%= t('home.community_heading') %></h1>
-    <p class="text-gray-500 "><%= t('home.community_body_one') %></p>
-    <p class="text-gray-500"><%= t('home.community_body_two') %></p>
-    <div class="flex my-6">
-      <%= link_to 'Suggestions', new_user_session_path, data: { turbo: false }, class: 'inline-flex items-center bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-150 ease-in-out px-6 py-3' %>
-      <%= link_to 'Github', 'https://github.com/petebarbosa/anki-on-rails', class: 'inline-flex items-center bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-150 ease-in-out ml-4 px-6 py-3' %>
+    <!-- TODO: Add features when ready -->
+  </features>
+  <community class="flex">
+    <hr class="border-gray-200 sm:mx-auto dark:border-gray-700 my-8 lg:my-10" />
+    <div>
+      <!-- TODO: Add community image-->
+    </div>
+    <div>
+      <h1 class="font-bold text-3xl my-6"><%= t('home.community_heading') %></h1>
+      <p class="text-gray-500 "><%= t('home.community_body_one') %></p>
+      <p class="text-gray-500"><%= t('home.community_body_two') %></p>
+      <div class="flex my-6">
+        <%= link_to 'Suggestions', new_user_session_path, data: { turbo: false }, class: 'inline-flex items-center bg-red-600 text-white font-semibold rounded-xl hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-150 ease-in-out px-6 py-3' %>
+        <%= link_to 'Github', 'https://github.com/petebarbosa/anki-on-rails', class: 'inline-flex items-center bg-red-600 text-white font-semibold rounded-xl hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-150 ease-in-out ml-4 px-6 py-3' %>
+      </div>
     </div>
   </community>
+  <support class="flex flex-col">
+    <hr class="border-gray-200 sm:mx-auto dark:border-gray-700 my-8 lg:my-10" />
+    <h1 class="font-bold text-3xl my-6"><%= t('home.support_heading') %></h1>
+    <p class="text-gray-500 "><%= t('home.support_body_one') %></p>
+    <p class="text-gray-500"><%= t('home.support_body_two') %></p>
+  </support>
+
 <% end %>
 
 <%= render 'shared/footer' %>
