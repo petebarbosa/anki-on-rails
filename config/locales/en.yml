@@ -31,10 +31,10 @@ en:
   home:
     hero_top: "A free anki tool for your improvement!"
     hero_bottom: "Have fun with this easy to use flashcard tool."
-    description_part_one: ""
     community_heading: "Community driven!"
-    community_body_one: "I believe in the power of collaboration and continuous improvement. Whether you're here to use the app for studying or want to contribute to its development, you're always welcome."
-    community_body_two: "Feel free to share your ideas, suggest features, or even contribute code. Together, we can make learning more effective for everyone!"
+    community_body_one: "Teamwork and leveling up together is our main goal. Whether you’re diving into the app to ace your studies or you’re here to lend a hand with development, you’ve got a place in this community."
+    community_body_two: "Got ideas? Feature requests? Found some bug? Or maybe you’re just itching to write some code? Don’t hold back! Let’s join forces and make learning a breeze for everyone!"
     support_heading: "No paywall, ever!"
-    support_body_one: "At Anki on Rails, my goal is to keep studying accessible for everyone. We’re committed to offering all features without any paywall so that every user can fully benefit from the app."
-    support_body_two: "To help cover hosting costs, we use Google AdSense. For an ad-free experience, we also offer a small subscription option. This support helps us keep Anki-on-Rails free and available to everyone. Thank you for being part of our community!"
+    support_body_one: "Here at Anki on Rails, we're all about keeping studying open and accessible for everyone. That means no sneaky paywalls, just pure and unfiltered learning goodness for all users!"
+    support_body_two: "To keep the lights on, we'll relyon some ads. If you’d rather go the ad-free way, we’ve got a low-key subscription option too. Your support makes it possible for us to keep Anki on Rails free for everyone. Thanks for being a part of this amazing community!"
+
