@@ -1,5 +1,5 @@
 services:
-  db:
+  postgres:
     image: postgres:16
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -8,7 +8,8 @@ services:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
-  web:
+
+  anki-production:
     build: .
     command: bash -c "rm -f tmp/pidsserver.pid && bundle exec rails s -b '0.0.0.0'"
     volumes:
@@ -21,3 +22,7 @@ services:
 
 volumes:
   pgdata:
+
+networks:
+  default:
+    name: applications-network
