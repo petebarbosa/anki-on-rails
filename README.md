@@ -185,5 +185,3 @@ Project Link: coming soon.
     max-width: 200px; /* Set your desired size here */
   }
 </style>
-
-
